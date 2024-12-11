@@ -1,0 +1,62 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+}
+
+.nav-link:hover{
+    color: #4ba9f3;
+}
+
+.hero-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:2.7rem;
+    padding-left:220px;
+    padding-right:220px;
+}
+
+.hero-subtitle{
+    font-size:1.5rem;
+    padding-left:210px;
+    padding-right:210px;
+}
+
+#cta-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    font-size: 1.2rem;
+}
+
+#cta-button:hover {
+    background-color: #218838;
+    color: white;
+}
+
+.benefits-grid {
+    display: flex; /* Enable Flexbox */
+    justify-content: space-between; /* Space between cards */
+    align-items: flex-start; /* Align items at the top */
+    gap: 20px; /* Add spacing between cards */
+    flex-wrap: wrap; /* Ensure wrapping on smaller screens */
+}
+
+.benefit-icon{
+    font-size:1.5rem;
+}
+
+.benefit-card {
+    background-color: #f8f9fa; /* Light background */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px;
+    text-align: center;
+    flex: 1; /* Makes cards flexible */
+    max-width: 300px; /* Optional, to control card size */
+    font-size:1.5rem;
+    margin-top:20px;
+}
